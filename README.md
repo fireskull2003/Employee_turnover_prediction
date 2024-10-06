@@ -9,7 +9,8 @@ task 2/WA_Fn-UseC_-HR-Employee-Attrition.csv: The dataset used for training and 
 attrition_analysis.py: Main Python script that handles data preprocessing, model training, evaluation, and visualization.
 README.md: This file providing an overview of the project.
 Getting Started
-Prerequisites
+Prerequisites<br />
+
 Ensure you have the following installed:<br />
 
 Python 3.x
@@ -20,7 +21,7 @@ Seaborn
 Scikit-learn
 Install the required Python libraries using pip:
 
-pip install pandas numpy matplotlib seaborn scikit-learn.
+pip install pandas numpy matplotlib seaborn scikit-learn
 
 # Dataset
 The dataset used in this project contains features related to employee demographics, performance, and company structure. The target variable is "Left", which indicates whether an employee has left the company.
