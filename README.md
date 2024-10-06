@@ -20,14 +20,12 @@ Seaborn
 Scikit-learn
 Install the required Python libraries using pip:
 
-bash
-Copy code
-pip install pandas numpy matplotlib seaborn scikit-learn
-Dataset
+pip install pandas numpy matplotlib seaborn scikit-learn.
+
+# Dataset
 The dataset used in this project contains features related to employee demographics, performance, and company structure. The target variable is "Left", which indicates whether an employee has left the company.
 
-Running the Project
-To run the script:
+# Running the Project
 
 Clone this repository.
 Ensure the dataset is in the task 2/ directory.
