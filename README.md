@@ -6,9 +6,9 @@ This project aims to predict employee attrition using machine learning models. T
 
 # Project Structure
 
-task 2/WA_Fn-UseC_-HR-Employee-Attrition.csv: The dataset used for training and testing the models.<br />
-attrition_analysis.py: Main Python script that handles data preprocessing, model training, evaluation, and visualization.<br />
-README.md: This file providing an overview of the project.<br />
+**task 2/WA_Fn-UseC_-HR-Employee-Attrition.csv:** The dataset used for training and testing the models.<br />
+**attrition_analysis.py:** Main Python script that handles data preprocessing, model training, evaluation, and visualization.<br />
+**README.md:** This file providing an overview of the project.<br />
 
 # Getting Started 
 **Prerequisites**
@@ -38,11 +38,11 @@ bash
 Copy code
 python attrition_analysis.py
 ## Key Steps in the Script
-**Data Loading:** The dataset is loaded using Pandas.
+**Data Loading:** The dataset is loaded using Pandas.<br>
 **Exploratory Data Analysis (EDA):**
-Display the first few rows of the dataset (head()).
-Show basic statistics of the dataset (describe()).
-A heatmap is generated to visualize feature correlations.
+Display the first few rows of the dataset (head()).<br>
+Show basic statistics of the dataset (describe()).<br>
+A heatmap is generated to visualize feature correlations.<br>
 ## Data Preprocessing:
 ---
 One-hot encoding is applied to categorical variables (get_dummies()).
