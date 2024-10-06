@@ -8,7 +8,8 @@ Project Structure
 task 2/WA_Fn-UseC_-HR-Employee-Attrition.csv: The dataset used for training and testing the models.
 attrition_analysis.py: Main Python script that handles data preprocessing, model training, evaluation, and visualization.
 README.md: This file providing an overview of the project.
-Getting Started
+
+Getting Started<br /> 
 Prerequisites<br />
 
 Ensure you have the following installed:<br />
