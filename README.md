@@ -15,46 +15,46 @@ This project aims to predict employee attrition using machine learning models. T
 
 Ensure you have the following installed:<br>
 
-Python 3.x<br />
-Pandas<br />
-NumPy<br />
-Matplotlib<br />
-Seaborn<br />
-Scikit-learn<br />
+* Python 3.x<br />
+* Pandas<br />
+* NumPy<br />
+* Matplotlib<br />
+* Seaborn<br />
+* Scikit-learn<br />
 
 Install the required Python libraries using pip:<br>
-
-pip install pandas numpy matplotlib seaborn scikit-learn<br>
-
+```bash 
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
 # Dataset
 The dataset used in this project contains features related to employee demographics, performance, and company structure. The target variable is "Left", which indicates whether an employee has left the company.
 
 # Running the Project
 
-Clone this repository.<br>
-Ensure the dataset is in the task 2/ directory.<br>
-Run the attrition_analysis.py script.<br>
-bash
-Copy code
+1. Clone this repository.<br>
+2. Ensure the dataset is in the task 2/ directory.<br>
+3. Run the attrition_analysis.py script.<br>
+```bash
 python attrition_analysis.py
+```
 ## Key Steps in the Script
 **Data Loading:** The dataset is loaded using Pandas.<br>
-**Exploratory Data Analysis (EDA):**<br>
-Display the first few rows of the dataset (head()).<br>
-Show basic statistics of the dataset (describe()).<br>
-A heatmap is generated to visualize feature correlations.<br>
+**Exploratory Data Analysis (EDA):** <br>
+* Display the first few rows of the dataset (head()).<br>
+* Show basic statistics of the dataset (describe()).<br>
+* A heatmap is generated to visualize feature correlations.<br>
 ## Data Preprocessing:
-One-hot encoding is applied to categorical variables (get_dummies()).<br>
-Data is split into features (X) and target (y).<br>
-The dataset is split into training and testing sets using train_test_split().<br>
-Feature scaling is performed using StandardScaler().<br>
+* One-hot encoding is applied to categorical variables (get_dummies()).<br>
+* Data is split into features (X) and target (y).<br>
+* The dataset is split into training and testing sets using train_test_split().<br>
+* Feature scaling is performed using StandardScaler().<br>
 ## Model Training:
-A Decision Tree Classifier is trained using the fit() method.
+* A Decision Tree Classifier is trained using the fit() method.
 ## Model Evaluation:
-The accuracy of the Decision Tree model is printed.<br>
-A confusion matrix is plotted to visualize the performance.<br>
-A classification report (precision, recall, f1-score) is generated.<br>
+* The accuracy of the Decision Tree model is printed.<br>
+* A confusion matrix is plotted to visualize the performance.<br>
+* A classification report (precision, recall, f1-score) is generated.<br>
 ## Random Forest Classifier:
-A Random Forest Classifier is also trained and evaluated similarly, with its accuracy compared to the Decision Tree.
+* A Random Forest Classifier is also trained and evaluated similarly, with its accuracy compared to the Decision Tree.
 
 
