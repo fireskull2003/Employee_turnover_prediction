@@ -10,10 +10,10 @@ task 2/WA_Fn-UseC_-HR-Employee-Attrition.csv: The dataset used for training and 
 attrition_analysis.py: Main Python script that handles data preprocessing, model training, evaluation, and visualization.<br />
 README.md: This file providing an overview of the project.<br />
 
-# Getting Started<br /> 
-**Prerequisites**<br />
+# Getting Started 
+**Prerequisites**
 
-Ensure you have the following installed:<br />
+Ensure you have the following installed:<br>
 
 Python 3.x<br />
 Pandas<br />
@@ -23,7 +23,7 @@ Seaborn<br />
 Scikit-learn<br />
 
 Install the required Python libraries using pip:
-'''bash 
+
 pip install pandas numpy matplotlib seaborn scikit-learn
 
 # Dataset
@@ -37,24 +37,25 @@ Run the attrition_analysis.py script.
 bash
 Copy code
 python attrition_analysis.py
-Key Steps in the Script
-Data Loading: The dataset is loaded using Pandas.
-Exploratory Data Analysis (EDA):
+## Key Steps in the Script
+**Data Loading:** The dataset is loaded using Pandas.
+**Exploratory Data Analysis (EDA):**
 Display the first few rows of the dataset (head()).
 Show basic statistics of the dataset (describe()).
 A heatmap is generated to visualize feature correlations.
-Data Preprocessing:
+## Data Preprocessing:
+---
 One-hot encoding is applied to categorical variables (get_dummies()).
 Data is split into features (X) and target (y).
 The dataset is split into training and testing sets using train_test_split().
 Feature scaling is performed using StandardScaler().
-Model Training:
+## Model Training:
 A Decision Tree Classifier is trained using the fit() method.
-Model Evaluation:
+## Model Evaluation:
 The accuracy of the Decision Tree model is printed.
 A confusion matrix is plotted to visualize the performance.
 A classification report (precision, recall, f1-score) is generated.
-Random Forest Classifier:
+## Random Forest Classifier:
 A Random Forest Classifier is also trained and evaluated similarly, with its accuracy compared to the Decision Tree.
 
 
